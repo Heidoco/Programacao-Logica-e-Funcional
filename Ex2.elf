@@ -1,0 +1,13 @@
+%Define um tipo
+pessoa : type.
+
+
+% Tipos usados na regra pai
+pai : pessoa -> pessoa -> type.
+
+
+% Define a base de fatos
+pai(ana, francisco).
+pai(maria, francisco).
+pai(luisa, luiz).
+pai(joaquim, luiz).

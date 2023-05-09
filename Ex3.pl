@@ -1,0 +1,1 @@
+irmaos(X, Y) :- pai(X, PX), pai(Y, PX), Y \= X.
